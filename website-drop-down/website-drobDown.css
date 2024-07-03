@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(/image-used/bibrioteque.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav-bar {
+  background-color: rgb(19, 123, 90);
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.nav-list li {
+  width: 110px;
+  margin: 15px;
+  padding: 14px;
+  list-style: none;
+  ion-icon {
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+    margin-right: 4px;
+  }
+}
+.nav-list a {
+  text-decoration: none;
+  color: white;
+}
+
+.active,
+.nav-list li:hover {
+  border-radius: 3px;
+  background-color: #2bab0d;
+}
+
+.sub-menu1 {
+  display: none;
+}
+.nav-list li:hover .sub-menu1 {
+  display: block;
+  top: 39px;
+  position: absolute;
+  background-color: rgb(19, 123, 90);
+  margin: 15px 0 0 -15px;
+}
+.nav-list li:hover .sub-menu1 ul {
+  display: block;
+  margin: 10px;
+}
+.nav-list li:hover .sub-menu1 ul li {
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+  background-color: transparent;
+  border-radius: 0;
+  text-align: left;
+  & ion-icon {
+    float: right;
+  }
+}
+.nav-list li:hover .sub-menu1 ul li:last-child {
+  border-bottom: none;
+}
+.nav-list li:hover .sub-menu1 ul li a:hover {
+  color: #b2ff00;
+}
+.sub-menu2 {
+  display: none;
+}
+.hover-me:hover .sub-menu2 {
+  position: absolute;
+  display: block;
+  margin-top: -40px;
+  margin-left: 140px;
+  background-color: rgb(19, 123, 90);
+}

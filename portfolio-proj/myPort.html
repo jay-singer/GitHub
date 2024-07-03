@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My PortFolio</title>
+    <!-- -----UNICONS-------->
+    <!-- ---CSS---------->
+    <link rel="stylesheet" href="myPort.css" />
+    <!-- -----UNICONS-------->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <!-------font used--------->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-----------HEADER------------>
+      <nav id="header">
+        <div class="nav-logo">
+          <p class="nav-name">PAUL</p>
+          <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+          <ul class="nav-menu-list">
+            <li class="nav_list">
+              <a href="#home" class="nav-link active-link"> Home </a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#about" class="nav-link"> About </a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#projects" class="nav-link"> Projects </a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#contact" class="nav-link"> Contact </a>
+              <div class="circle"></div>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-btn">
+          <button class="btn">
+            <span
+              >Download CV<img
+                src="/svg-used/document-text-outline.svg"
+                alt=""
+                class="ionic"
+            /></span>
+          </button>
+        </div>
+        <div class="nav-menu-btn">
+          <img
+            src="/svg-used/menu-outline.svg"
+            alt=""
+            onclick="myMenuFunction()"
+            class="ionic"
+          />
+        </div>
+      </nav>
+      <!------------MAIN----------->
+      <main class="wrapper">
+        <!------------FEATURED BOX----------->
+        <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featuredp-text-card">
+              <span>Jay Paul</span>
+            </div>
+            <div class="featured-name">
+              <p>I'm <span class="typedtext">Developer</span></p>
+            </div>
+            <div class="feature-test-info">
+              <p>
+                Experience fronted developer with a passion for creating
+                visually stunning and user-friendly website.
+              </p>
+            </div>
+            <div class="featured-text-btn">
+              <button class="btn blue-btn">Hire Me</button>
+              <button class="btn">
+                <span>
+                  Download Cv
+                  <img
+                    src="/svg-used/document-text-outline.svg"
+                    alt=""
+                    class="ionic"
+                  />
+                </span>
+              </button>
+            </div>
+            <div class="social_icons">
+              <div class="icon">
+                <img src="/svg-used/logo-instagram.svg" alt="" class="ionic" />
+              </div>
+              <div class="icon">
+                <img src="/svg-used/logo-linkedin.svg" alt="" class="ionic" />
+              </div>
+
+              <div class="icon">
+                <img src="/svg-used/logo-dropbox.svg" alt="" class="ionic" />
+              </div>
+              <div class="icon">
+                <img src="/svg-used/logo-github.svg" alt="" class="ionic" />
+              </div>
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+              <img src="/image-used/file.png" alt="avatar" />
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+              <img src="/svg-used/mouse.svg" alt="" class="ionic" />
+              <p>Scroll Down</p>
+            </a>
+          </div>
+        </section>
+        <!------------ABOUT BOX----------->
+        <section class="section" id="about">
+          <div class="top-header">
+            <h1>About Me</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="about-info">
+                <h3>My introduction</h3>
+                <p>
+                  I am well-versed in HTML, CSS and JavaScript, and other
+                  cutting edge frameworks and libraries, which allows me to
+                  implement interactive features. Additionally, I have
+                  experience working with content management systems (CMS) like
+                  wordpress.
+                </p>
+                <div class="about-btn">
+                  <botton class="btn"
+                    >Download CV
+                    <img
+                      src="/svg-used/cloud-download-outline.svg"
+                      alt=""
+                      class="ionic"
+                    />
+                  </botton>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="skills-box">
+                <div class="skills-header">
+                  <h3>Fontend</h3>
+                </div>
+                <div class="skills-list">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>Bootstrap</span>
+                  <span>JavaScript</span>
+                  <span>Vue</span>
+                  <span>React</span>
+                  <span>Angular</span>
+                </div>
+              </div>
+              <div class="skills-box">
+                <div class="skills-header">
+                  <h3>Backend</h3>
+                </div>
+                <div class="skills-list">
+                  <span>PHP</span>
+                  <span>C++</span>
+                  <span>Python</span>
+                  <span>JAVA</span>
+                </div>
+              </div>
+              <div class="skills-box">
+                <div class="skills-header">
+                  <h3>Database</h3>
+                </div>
+                <div class="skills-list">
+                  <span>MySQL</span>
+                  <span>PostgreSQL</span>
+                  <span>MangoDB</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!------------PROJECTS BOX----------->
+
+        <section class="section" id="projects">
+          <div class="top-header">
+            <h1>Projects</h1>
+          </div>
+          <div class="project-container">
+            <div class="project-box">
+              <img src="/svg-used/briefcase-outline.svg" alt="" class="ionic" />
+              <h3>Complete</h3>
+              <label>15+ Finished Projects</label>
+            </div>
+            <div class="project-box">
+              <img src="/svg-used/people-outline.svg" alt="" class="ionic" />
+              <h3>Clients</h3>
+              <label>60+ Happy Clients</label>
+            </div>
+            <div class="project-box">
+              <img src="/svg-used/trophy-outline.svg" alt="" class="ionic" />
+              <h3>Experience</h3>
+              <label>7+ years in the field</label>
+            </div>
+          </div>
+        </section>
+        <!------------CONTACT BOX---------->
+        <section class="section" id="contact">
+          <div class="top-header">
+            <h1>Get in touch</h1>
+            <span>Do you have project in your mind, contact me here</span>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="contact-info">
+                <h2>
+                  Find Me
+                  <img
+                    src="/svg-used/arrow-down-outline.svg"
+                    alt=""
+                    class="ionic"
+                  />
+                </h2>
+                <p>
+                  <img
+                    src="/svg-used/mail-open-outline.svg"
+                    alt=""
+                    class="ionic"
+                  />
+                  Email: manishimwemugishaj40@gmail.com
+                </p>
+                <p>
+                  <img src="/svg-used/call-outline.svg" alt="" class="ionic" />
+                  Tel: +250 788 408 291
+                </p>
+              </div>
+            </div>
+            <div class="form-control">
+              <div class="form-input">
+                <input type="text" class="input-field" placeholder="name" />
+                <input type="text" class="input-field" placeholder="Email" />
+              </div>
+              <div class="text-area">
+                <textarea placeholder="Message"></textarea>
+              </div>
+              <div class="form-button">
+                <button class="btn">
+                  Send
+                  <img src="/svg-used/send-outline.svg" alt="" class="ionic" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-----------FOOTER------------>
+      <footer>
+        <div class="top-footer">
+          <p>Jean Paul .</p>
+        </div>
+        <div class="middle-footer">
+          <ul class="footer-menu">
+            <li class="footer_menu_list">
+              <a href="#Home">Home</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#about">About</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#projects">Projects</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-social-icons">
+          <div class="icon">
+            <img src="/svg-used/logo-instagram.svg" alt="" class="ionic" />
+          </div>
+          <div class="icon">
+            <img src="/svg-used/logo-linkedin.svg" alt="" class="ionic" />
+          </div>
+
+          <div class="icon">
+            <img src="/svg-used/logo-dropbox.svg" alt="" class="ionic" />
+          </div>
+          <div class="icon">
+            <img src="/svg-used/logo-github.svg" alt="" class="ionic" />
+          </div>
+        </div>
+        <div class="bottom-footer">
+          <p>
+            copyright &copy;
+            <a href="#home" style="text-decoration: none">Jean Paul</a> --All
+            rights reserved
+          </p>
+        </div>
+      </footer>
+    </div>
+    <!----TYPED JS----->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!--- SCROLL REVEAL JS LINK--->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--- Main js---->
+    <script src="myPort.js"></script>
+  </body>
+</html>
